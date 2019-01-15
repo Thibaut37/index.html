@@ -1,15 +1,18 @@
-body, head { font-family: Arial,Helvetica,Sans-serif;
-
-	margin-top:150px;
-	margin-right:1000px;
-	margin-bottom:5px;
-	margin-left:150px;
-    background-color: #15fc0e ; 
+body, head { 
+	font-family: Arial,Helvetica,Sans-serif;
+	width: 800px;
+  margin: auto;
 
 }
 
+div#global { border:100px solid #000;
+    background-color: #15fc0e ; 
+
+  width: 110% } 
+
 p
 {
+	margin:auto;
 	 border:1px solid red;
 	padding:3px;
     color: blue;
@@ -19,13 +22,14 @@ p
 
 p1 
 {
-
+margin:auto;
     color: white;
 	background-color : black;
 }
 
 h1
 {
+	margin:auto;
 	color: rgba(0, 0, 255, 0.5);
 	font-family: Verdana, sans-serif;
 	font-size : 80px;  
@@ -33,7 +37,7 @@ h1
 }
 h2
 {
-
+margin:auto;
     color: rgb( 252, 127, 14);
 
 }
@@ -43,6 +47,7 @@ h2
 p2
 
 {
+	margin:auto;
 	font-size : 50px;
     color: white;
 }
@@ -52,24 +57,34 @@ p2
 
 	
     background-color: grey ; 
+	margin:auto;
 
 }
 .zoom {
+	margin:auto;
 height:100%;
 }
 .zoom p {
+	margin:auto;
 text-align:center;
 }
 .zoom img {
+	margin:auto;
 width:100%;
 height:100%;
 }
 .zoom img:hover {
+	margin:auto;
 width:120%;
 height:120%;
 }
 
+ul
 
-
-audio
+{
+	margin:auto;
+	color: rgba(0, 0, 255, 0.5);
+	font-family: Verdana, sans-serif;
+	font-size : 30px;  
 	
+}
